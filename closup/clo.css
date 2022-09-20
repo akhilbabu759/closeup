@@ -1,0 +1,136 @@
+.hed{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 35px;
+    background-color: #000;
+    height: 90px;
+    padding-left: 77px;
+    
+    
+}
+.hed_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 120px; */
+    grid-gap: 35px;
+    padding-top: 16px;
+    
+
+}
+.hed_1div{
+    padding-left: 20px;
+    padding-top: 11px;
+}
+.hed_3div{
+    padding-top: 20px;
+    
+    
+    
+    
+    
+
+}
+.search_img {
+    position: relative;
+    top: 11px;
+    left: 25px;
+    width: 24px;
+    height: 30px;
+}
+::placeholder {
+    color: rgb(242, 239, 239);
+    opacity: 1; /* Firefox */
+  }
+ .aft_hed{
+    background-color: #000;
+    height: 76px;
+    padding-top: 19px;
+
+  }
+  .aft_tex{
+    background-color: #000;
+    padding-top: 20px;
+    position: relative;
+    height: 480px;
+
+  }
+  .img_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 94px;
+    grid-gap: 1px;
+    padding-right: 345px;
+  }
+  .brush-marker-big{
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: lowercase;
+    position: absolute;
+  }
+  .box_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 94px;
+    grid-gap: 1px;
+    padding-right: 345px;
+
+  }
+  .tp{
+    width: 100%;
+    height: 2px;
+  }
+  .grid_treind{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-gap: 1px;
+
+  }
+  .grid_art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    grid-gap: 16px;
+
+  }
+  .tex{
+    color: black;
+  }
+  .bef_foot{
+    background: #f2f4f6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-gap: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+  }
+  .th{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 189px;
+    grid-gap: 1px;
+    background: #7dd0c1;
+  }
+  .foot_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    grid-gap: 1px;
+  }
+  .foot_2grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-gap: 1px;
+
+  }
